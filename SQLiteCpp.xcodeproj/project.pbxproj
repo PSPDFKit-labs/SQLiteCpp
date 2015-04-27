@@ -12,6 +12,9 @@
 		430E8D501AEECD9F0053F164 /* Statement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 430E8D4C1AEECD9F0053F164 /* Statement.cpp */; };
 		430E8D511AEECD9F0053F164 /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 430E8D4D1AEECD9F0053F164 /* Transaction.cpp */; };
 		430E8D611AEECE590053F164 /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 430E8D4D1AEECD9F0053F164 /* Transaction.cpp */; };
+		438216D61AEEE0040069F646 /* Column.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 430E8D4A1AEECD9F0053F164 /* Column.cpp */; };
+		438216D71AEEE0040069F646 /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 430E8D4B1AEECD9F0053F164 /* Database.cpp */; };
+		438216D81AEEE0040069F646 /* Statement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 430E8D4C1AEECD9F0053F164 /* Statement.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		430E8D1F1AEEC4AF0053F164 /* libSQLiteCpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSQLiteCpp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		430E8D1F1AEEC4AF0053F164 /* libSQLiteCpp-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSQLiteCpp-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		430E8D4A1AEECD9F0053F164 /* Column.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Column.cpp; sourceTree = "<group>"; };
 		430E8D4B1AEECD9F0053F164 /* Database.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Database.cpp; sourceTree = "<group>"; };
 		430E8D4C1AEECD9F0053F164 /* Statement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Statement.cpp; sourceTree = "<group>"; };
@@ -64,7 +67,7 @@
 		430E8D201AEEC4AF0053F164 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				430E8D1F1AEEC4AF0053F164 /* libSQLiteCpp.a */,
+				430E8D1F1AEEC4AF0053F164 /* libSQLiteCpp-ios.a */,
 				430E8D561AEECE540053F164 /* libSQLiteCpp-mac.a */,
 			);
 			name = Products;
@@ -108,7 +111,7 @@
 			);
 			name = "SQLiteCpp-ios";
 			productName = SQLiteCpp;
-			productReference = 430E8D1F1AEEC4AF0053F164 /* libSQLiteCpp.a */;
+			productReference = 430E8D1F1AEEC4AF0053F164 /* libSQLiteCpp-ios.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		430E8D551AEECE540053F164 /* SQLiteCpp-mac */ = {
@@ -180,6 +183,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				430E8D611AEECE590053F164 /* Transaction.cpp in Sources */,
+				438216D71AEEE0040069F646 /* Database.cpp in Sources */,
+				438216D61AEEE0040069F646 /* Column.cpp in Sources */,
+				438216D81AEEE0040069F646 /* Statement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +349,7 @@
 				430E8D601AEECE540053F164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
